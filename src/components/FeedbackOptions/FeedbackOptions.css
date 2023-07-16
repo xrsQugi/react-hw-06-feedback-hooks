@@ -1,0 +1,33 @@
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px black solid;
+    background-color: transparent;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    transition: .3s background-color ease-in-out, .3s color ease-in-out, .3s filter ease-in-out;
+}
+
+.btn:hover{
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.good-btn:hover{
+    background-color: #123C69;
+}
+
+.neutral-btn:hover{
+    background-color: #c7683f;
+}
+
+.bad-btn:hover{
+    background-color: #AB3B61;
+}

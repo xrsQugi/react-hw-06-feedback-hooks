@@ -1,0 +1,22 @@
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.good{
+    color: #123C69;
+    font-weight: 700;
+}
+
+.neutral{
+    color: #c7683f;
+    font-weight: 700;
+}
+
+.bad{
+    color: #AB3B61;
+    font-weight: 700;
+}
